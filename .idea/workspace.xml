@@ -2,10 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb9123ae-41ca-4902-8d3b-c7bd2887c743" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/maxgetman.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/browserconfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/crossdomain.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/doc/TOC.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/doc/css.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/doc/extend.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/doc/faq.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/doc/html.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/doc/js.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/doc/misc.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/doc/usage.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/humans.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/img/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/vendor/jquery-1.11.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/vendor/modernizr-2.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/tile-wide.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/tile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/prev.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jan.html" afterPath="$PROJECT_DIR$/src/jan.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/lightbox.css" afterPath="$PROJECT_DIR$/src/css/lightbox.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/main.css" afterPath="$PROJECT_DIR$/src/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="flat21.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +63,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5">
+            <state vertical-scroll-proportion="28.958334">
               <caret line="20" column="93" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
               <folding />
             </state>
@@ -39,9 +73,21 @@
       <file leaf-file-name="jan.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/jan.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38593483">
-              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.7226891">
+              <caret line="52" column="13" selection-start-line="44" selection-start-column="4" selection-end-line="52" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lightbox.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/lightbox.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+              <folding>
+                <element signature="e#1581#1670#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/src/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="103" column="3" selection-start-line="103" selection-start-column="3" selection-end-line="103" selection-end-column="3" />
+              <caret line="313" column="22" selection-start-line="313" selection-start-column="22" selection-end-line="313" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -65,8 +111,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/css/main.css" />
+        <option value="$PROJECT_DIR$/src/css/lightbox.css" />
         <option value="$PROJECT_DIR$/src/jan.html" />
+        <option value="$PROJECT_DIR$/src/css/main.css" />
       </list>
     </option>
   </component>
@@ -83,9 +130,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="36" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="704" />
+    <option name="height" value="716" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -110,8 +157,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -173,7 +220,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="editor.config.accepted" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="oblique&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="rowstuff2&#9;null&#9;null&#10;oblique&#9;null&#9;null" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -229,7 +276,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="36" width="1280" height="704" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="716" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -245,11 +292,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -263,20 +310,12 @@
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="20" column="93" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -294,16 +333,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5">
-          <caret line="20" column="93" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jan.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38593483">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="28.958334">
+          <caret line="20" column="93" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/lightbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding>
+            <element signature="e#1581#1670#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="313" column="22" selection-start-line="313" selection-start-column="22" selection-end-line="313" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7226891">
+          <caret line="52" column="13" selection-start-line="44" selection-start-column="4" selection-end-line="52" selection-end-column="13" />
           <folding />
         </state>
       </provider>

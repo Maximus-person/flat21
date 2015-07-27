@@ -92,7 +92,7 @@ body{
     width: 100%;
     height: 100%;
     background-size: cover;
-    background-color: black;
+    background-color: white;
     padding:0;
     margin:0;
 }
@@ -310,7 +310,7 @@ body{
     padding-top:5%;
 }
 
-.rowstuff2 {
+.janT1, .janT2 {
     position:relative;
     text-align: justify;
     min-width: 412px;
@@ -320,12 +320,17 @@ body{
     font-size:34px;
 }
 
-.rowstuff2:after {
+.janT1:after {
     content: '';
     display: inline-block;
     width: 100%;
 }
 
+a {
+    font-size:34px;
+    text-decoration:none;
+    color:black;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

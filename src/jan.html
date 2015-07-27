@@ -9,23 +9,22 @@
 
     <meta name="description" content="">
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
-
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
     <script>window.jQuery || document.write('<script src="js/vendor/jquery/2.1.3/jquery.min.js"><\/script>')</script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/lightbox-plus-jquery.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/lightbox.min.js"></script>
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"/>
     <script language="Javascript" type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script language="Javascript" type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="css/lightbox.css"></script>
-    <script src="js/lightbox.js"></script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
         (function (b, o, i, l, e, r) {
@@ -45,24 +44,16 @@
     </script>
     <script>
         $(function () {
-            $('.cam2').hide();
-            $('.right, .left').on('click', function () {
-                        $('.cam1, .cam2').toggle();
-                    }
-            );
-        });
-    </script>
-    <script>
-        $(function () {
-            $('.rowstuff2').hide();
+            $('.janT1, .janT2').hide();
             $('.rowstuff1 .col .box1 .jan1').on('click', function () {
-                        $('.rowstuff1,.times .rowstuff2').toggle();
+                        $('.rowstuff1,.times .janT1').toggle();
                     }
             );
         });
     </script>
 </head>
-<body><div class="dates">
+<body>
+<div class="dates">
 <div class="rowstuff1">
     <div class="col">
         <div class="box1"><p class="jan1">1</p></div>
@@ -94,8 +85,8 @@
     <div class="col">
         <div class="box1"><p class="jan10">10</p></div>
     </div>
-</div>
-<div class="rowstuff1">
+    </div>
+    <div class="rowstuff1">
     <div class="col">
         <div class="box1"><p class="jan11">11</p></div>
     </div>
@@ -124,123 +115,123 @@
         <div class="box1"><p class="jan19">19</p></div>
     </div>
     <div class="col">
-        <div class="box1"><p>20</p></div>
+        <div class="box1"><p class="jan20">20</p></div>
     </div>
-</div>
-<div class="rowstuff1">
-    <div class="col">
-        <div class="box1"><p>21</p></div>
     </div>
+    <div class="rowstuff1">
     <div class="col">
-        <div class="box1"><p>22</p></div>
+        <div class="box1"><p class="jan21">21</p></div>
     </div>
     <div class="col">
-        <div class="box1"><p>23</p></div>
+        <div class="box1"><p class="jan22">22</p></div>
     </div>
     <div class="col">
-        <div class="box1"><p>24</p></div>
+        <div class="box1"><p class="jan23">23</p></div>
     </div>
     <div class="col">
-        <div class="box1"><p>25</p></div>
+        <div class="box1"><p class="jan24">24</p></div>
     </div>
     <div class="col">
-        <div class="box1"><p>26</p></div>
+        <div class="box1"><p class="jan25">25</p></div>
     </div>
     <div class="col">
-        <div class="box1"><p>27</p></div>
+        <div class="box1"><p class="jan26">26</p></div>
     </div>
     <div class="col">
-        <div class="box1"><p>28</p></div>
+        <div class="box1"><p class="jan27">27</p></div>
     </div>
     <div class="col">
-        <div class="box1"><p>29</p></div>
+        <div class="box1"><p class="jan28">28</p></div>
     </div>
     <div class="col">
-        <div class="box1"><p>30</p></div>
+        <div class="box1"><p class="jan29">29</p></div>
+    </div>
+    <div class="col">
+        <div class="box1"><p class="jan30">30</p></div>
     </div>
 </div>
 </div>
 <div class="times">
-<div class="rowstuff2">
+<div class="janT1">
     <div class="col">
-        <div class="box2"><p>01:00</p></div>
+        <div class="box2"><a href="img/pic.png" data-lightbox="jan1" data-title="January 1st">01:00</a></div>
     </div>
     <div class="col">
-        <div class="box2"><p>02:00</p></div>
+        <div class="box2"><a href="img/pic.png" data-lightbox="jan1">02:00</a></div>
     </div>
     <div class="col">
-        <div class="box2"><p>03:00</p></div>
+        <div class="box2"><a href="img/pic.png" data-lightbox="jan1">03:00</a></div>
     </div>
     <div class="col">
-        <div class="box2"><p>04:00</p></div>
+        <div class="box2"><a href="img/pic.png" data-lightbox="jan1">04:00</a></div>
     </div>
     <div class="col">
-        <div class="box2"><p>05:00</p></div>
+        <div class="box2"><a href="img/pic.png" data-lightbox="jan1">05:00</a></div>
     </div>
     <div class="col">
-        <div class="box2"><p>06:00</p></div>
+        <div class="box2"><a href="img/pic.png" data-lightbox="jan1">06:00</a></div>
+    </div>
+    </div>
+    <div class="janT1">
+        <div class="col">
+            <div class="box2"><a href="img/pic.png" data-lightbox="jan1">07:00</a></div>
+        </div>
+        <div class="col">
+            <div class="box2"><a href="img/pic.png" data-lightbox="jan1">08:00</a></div>
+        </div>
+        <div class="col">
+            <div class="box2"><a href="img/pic.png" data-lightbox="jan1">09:00</a></div>
+        </div>
+        <div class="col">
+            <div class="box2"><a href="img/pic.png" data-lightbox="jan1">10:00</a></div>
+        </div>
+        <div class="col">
+            <div class="box2"><a href="img/pic.png" data-lightbox="jan1">11:00</a></div>
+        </div>
+        <div class="col">
+            <div class="box2"><a href="img/pic.png" data-lightbox="jan1">12:00</a></div>
+        </div>
+        </div>
+    <div class="janT1">
+        <div class="col">
+            <div class="box2"><a href="img/pic.png" data-lightbox="jan1">13:00</a></div>
+        </div>
+        <div class="col">
+            <div class="box2"><a href="img/pic.png" data-lightbox="jan1">14:00</a></div>
+        </div>
+        <div class="col">
+            <div class="box2"><a href="img/pic.png" data-lightbox="jan1">15:00</a></div>
+        </div>
+        <div class="col">
+            <div class="box2"><a href="img/pic.png" data-lightbox="jan1">16:00</a></div>
+        </div>
+        <div class="col">
+            <div class="box2"><a href="img/pic.png" data-lightbox="jan1">17:00</a></div>
+        </div>
+        <div class="col">
+            <div class="box2"><a href="img/pic.png" data-lightbox="jan1">18:00</a></div>
+        </div>
+        </div>
+<div class="janT1">
+        <div class="col">
+            <div class="box2"><a href="img/pic.png" data-lightbox="jan1">19:00</a></div>
+        </div>
+        <div class="col">
+            <div class="box2"><a href="img/pic.png" data-lightbox="jan1">20:00</a></div>
+        </div>
+        <div class="col">
+            <div class="box2"><a href="img/pic.png" data-lightbox="jan1">21:00</a></div>
+        </div>
+        <div class="col">
+            <div class="box2"><a href="img/pic.png" data-lightbox="jan1">22:00</a></div>
+        </div>
+        <div class="col">
+            <div class="box2"><a href="img/pic.png" data-lightbox="jan1">23:00</a></div>
+        </div>
+        <div class="col">
+            <div class="box2"><a href="img/pic.png" data-lightbox="jan1">24:00</a></div>
+        </div>
     </div>
 </div>
-<div class="rowstuff2">
-    <div class="col">
-        <div class="box2"><p>07:00</p></div>
-    </div>
-    <div class="col">
-        <div class="box2"><p>08:00</p></div>
-    </div>
-    <div class="col">
-        <div class="box2"><p>09:00</p></div>
-    </div>
-    <div class="col">
-        <div class="box2"><p>10:00</p></div>
-    </div>
-    <div class="col">
-        <div class="box2"><p>11:00</p></div>
-    </div>
-    <div class="col">
-        <div class="box2"><p>12:00</p></div>
-    </div>
-</div>
-<div class="rowstuff2">
-    <div class="col">
-        <div class="box2"><p>13:00</p></div>
-    </div>
-    <div class="col">
-        <div class="box2"><p>14:00</p></div>
-    </div>
-    <div class="col">
-        <div class="box2"><p>15:00</p></div>
-    </div>
-    <div class="col">
-        <div class="box2"><p>16:00</p></div>
-    </div>
-    <div class="col">
-        <div class="box2"><p>17:00</p></div>
-    </div>
-    <div class="col">
-        <div class="box2"><p>18:00</p></div>
-    </div>
-</div>
-<div class="rowstuff2">
-    <div class="col">
-        <div class="box2"><p>19:00</p></div>
-    </div>
-    <div class="col">
-        <div class="box2"><p>20:00</p></div>
-    </div>
-    <div class="col">
-        <div class="box2"><p>21:00</p></div>
-    </div>
-    <div class="col">
-        <div class="box2"><p>22:00</p></div>
-    </div>
-    <div class="col">
-        <div class="box2"><p>23:00</p></div>
-    </div>
-    <div class="col">
-        <div class="box2"><p>24:00</p></div>
-    </div>
-</div>
-    </div>
 </body>
 </html>
