@@ -87,6 +87,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+img {
+    width:100%;
+    height:100%;
+}
+
 body{
     position: absolute;
     width: 100%;
@@ -308,6 +313,7 @@ body{
     right:0;
     margin:auto;
     padding-top:5%;
+    position:relative;
 }
 
 .janT1, .janT2 {
